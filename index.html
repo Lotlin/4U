@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,7 @@
   <link rel="preload" href="fonts/roboto_medium.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/roboto_bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/roboto_black.woff2" as="font" type="font/woff2" crossorigin>
+  <script src="script.js" defer></script>
   <title>Уникальный заголовок</title>
 </head>
 <body>
@@ -36,23 +37,25 @@
       <p class="advantages__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
 
       <ul class="advantages__list slider__list">
-        <li class="advantages__item slider__item">
+        <li class="advantages__item slider__item slider__item1 slider__active">
           <div class="advantages__item-img slider__item-img advantages__item-img1"></div>
-          <p class="advantages__item-text">Первое целевое преимущество</p>
+          <p class="advantages__item-text advantages__item-text--active">Первое целевое преимущество</p>
         </li>
-        <li class="advantages__item slider__item">
+        <li class="advantages__item slider__item slider__item2">
           <div class="advantages__item-img slider__item-img advantages__item-img2"></div>
           <p class="advantages__item-text">Второе целевое преимущество</p>
         </li>
-        <li class="advantages__item slider__item">
+        <li class="advantages__item slider__item slider__item3">
           <div class="advantages__item-img slider__item-img advantages__item-img3"></div>
           <p class="advantages__item-text">Третье целевое преимущество</p>
         </li>
-        <li class="advantages__item slider__item">
+        <li class="advantages__item slider__item slider__item4">
           <div class="advantages__item-img slider__item-img advantages__item-img4"></div>
           <p class="advantages__item-text">Четвертое целевое преимущество</p>
         </li>
       </ul>
+      <button class="slider__arrow slider__arrow--left" id="left" aria-label="предыдущий слайд"></button>
+      <button class="slider__arrow slider__arrow--right" id="right" aria-label="следующий слайд"></button>
     </div>
   </section>
 
@@ -61,7 +64,7 @@
     <p class="contact__subtitle">Оставьте номер телефона, и мы перезвоним вам</p>
 
     <form action="#" class="contact__form">
-      <div class="input__wrapper">
+      <div class="contact__form-wrapper">
         <label class="contact__form-label">
           <input class="contact__form-input" type="text" name="name" placeholder="Ваше имя" required>
         </label>

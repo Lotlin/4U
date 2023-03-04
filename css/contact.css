@@ -19,7 +19,7 @@
   font-weight: 500;
 }
 
-.input__wrapper {
+.contact__form-wrapper {
   margin-bottom: 61px;
 }
 
@@ -83,7 +83,7 @@
     font-size: 20px;
   }
 
-  .input__wrapper {
+  .contact__form-wrapper {
     margin-bottom: 50px;
   }
 
@@ -170,7 +170,7 @@
     font-size: 12px;
   }
 
-  .input__wrapper {
+  .contact__form-wrapper {
     margin-bottom: 45px;
   }
 
