@@ -3,12 +3,18 @@
 }
 
 .phone__number {
+  margin-bottom: 6px;
   font-size: 24px;
 }
 
 .phone__recall {
+  margin: 0 auto;
+  position: relative;
+  max-width: 140px;
   text-align: center;
-  text-decoration: underline;
+  font-size: 16px;
+  height: 20px;
+
 }
 
 .phone__img {
@@ -17,12 +23,14 @@
 
 @media (max-width: 1024px) {
   .phone__number {
+    margin-bottom: 4px;
     font-size: 21px;
   }
 
   .phone__recall {
     font-size: 13px;
   }
+
 }
 @media (max-width: 768px) {
   .phone__number {

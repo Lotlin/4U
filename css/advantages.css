@@ -1,5 +1,5 @@
 .advantages {
-  padding: 70px 0;
+  padding: 70px 0 56px;
   text-align: center;
 }
 
@@ -9,14 +9,15 @@
 }
 
 .advantages__title {
-  margin-bottom: 25px;
+  margin-bottom: 27px;
   font-size: 35px;
   font-weight: 700;
 }
 
 .advantages__subtitle {
-  margin: 0 auto 35px;
+  margin: 0 auto 33px;
   max-width: 189px;
+  padding-right: 3px;
   position: relative;
   font-size: 22px;
   font-weight: 500;
@@ -47,7 +48,7 @@
 }
 
 .advantages__text {
-  margin: 0 auto 50px;
+  margin: 0 auto 60px;
   max-width: 724px;
   font-size: 18px;
   line-height: 25px;
@@ -63,7 +64,7 @@
 }
 
 .advantages__item-img {
-  margin: 0 auto 16px;
+  margin: 0 auto 14px;
   width: 123px;
   height: 122px;
   background-size: contain;
@@ -97,11 +98,11 @@
     max-width: 870px;
   }
   .advantages__title {
-    margin-bottom: 23px;
+    margin-bottom: 25px;
     font-size: 32px;
   }
   .advantages__subtitle {
-    margin-bottom: 33px;
+    margin-bottom: 30px;
     max-width: 174px;
     position: relative;
     font-size: 20px;
@@ -127,7 +128,7 @@
   }
 
   .advantages__item-img {
-    margin: 0 auto 16px;
+    margin: 0 auto 23px;
     width: 104px;
     height: 104px;
 
@@ -136,7 +137,7 @@
   .advantages__item-text {
     font-size: 18px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 25px;
   }
 }
 
@@ -169,7 +170,7 @@
 
 @media (max-width: 480px) {
   .advantages {
-    padding: 30px 0 60px;
+    padding: 31px 0 42px;
   }
 
   .advantages__container {
@@ -177,13 +178,15 @@
   }
 
   .advantages__title {
-    margin-bottom: 15px;
+    margin-bottom: 19px;
+    max-width: 290px;
     font-size: 20px;
     font-weight: 700;
   }
 
   .advantages__subtitle {
-    margin: 0 auto 26px;
+    margin: 0 auto 28px;
+    padding-right: 0;
     max-width: 134px;
     position: relative;
     font-size: 16px;
@@ -215,7 +218,7 @@
   }
 
   .advantages__text {
-    margin: 0 auto 40px;
+    margin: 0 auto 42px;
     max-width: 290px;
     font-size: 12px;
     line-height: 17px;
@@ -224,7 +227,7 @@
   .advantages__list {
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
+    row-gap: 42px;
   }
 
   .advantages__item {
@@ -232,7 +235,7 @@
   }
 
   .advantages__item-img {
-    margin: 0 auto 26px;
+    margin: 0 auto 23px;
     width: 104px;
     height: 104px;
   }
@@ -247,7 +250,7 @@
 }
 
 /* for slider */
-@media (max-width: 320px) {
+@media (max-width: 319px) {
   .advantages__list {
     display: flex;
     flex-direction: row;

@@ -1,6 +1,6 @@
 .home {
   position: relative;
-  padding: 35px 200px 0;
+  padding: 40px 195px 0 200px;
   min-height: 732px;
   background: url("../img/backgroundTop.jpg") no-repeat left;
   background-size: cover;
@@ -20,15 +20,27 @@
 }
 
 .home-top {
-  margin-bottom: 126px;
+  margin-bottom: 121px;
   position: relative;
   z-index: 1;
   display: flex;
   justify-content: space-between;
 }
 
+.home-top__phone-text::after {
+  position: absolute;
+  width: 134px;
+  height: 1px;
+  background-color: #ffffff;
+  content: '';
+  left: -3px;
+  top: 20px;
+}
+
 .home__title {
-  margin-bottom: 35px;
+  min-height: 122px;
+  margin-bottom:  31px;
+  padding-right: 8px;
   position: relative;
   z-index: 1;
   font-size: 52px;
@@ -39,11 +51,16 @@
 .home__text {
   max-width: 960px;
   margin: 0 auto 90px;
+  padding-right: 4px;
   position: relative;
   z-index: 1;
   font-size: 22px;
-  line-height: 120%;
+  line-height: 31px;
   opacity: .75;
+}
+
+.home__link-wrapper {
+  padding-right: 7px;
 }
 
 .home__link {
@@ -65,24 +82,36 @@
   }
 
   .home-top {
-    margin-bottom: 70px;
+    margin-bottom: 71px;
+  }
+
+  .home-top__phone-text::after {
+    width: 106px;
+    left: 1px;
+    top: 17px;
   }
 
   .home__title {
-    margin: 0 auto 28px;
+    margin: 0 auto;
+    padding-right: 0;
     max-width: 780px;
     font-size: 40px;
   }
 
   .home__text {
-    margin-bottom: 61px;
+    margin-bottom: 56px;
+    padding-right: 0;
     max-width: 754px;
     font-size: 18px;
     line-height: 25px;
   }
 
+  .home__link-wrapper {
+    padding-right: 2px;
+  }
+
   .home__link {
-    padding: 11px 49px;
+    padding: 13px 49px 12px;
     font-size: 20px;
   }
 }
@@ -114,20 +143,21 @@
     padding: 15px 15px 0;
     min-height: 441px;
     text-align: center;
-    background-position: -80px 0;
+    background-position: -76px 11px;
   }
 
   .home-top {
-    margin-bottom: 65px;
+    margin-bottom: 66px;
   }
 
   .home__title {
-    margin-bottom: 23px;
+    min-height: 74px;
+    margin-bottom: 20px;
     font-size: 20px;
   }
 
   .home__text {
-    margin-bottom: 54px;
+    margin-bottom: 53px;
     font-size: 14px;
     line-height: 20px;
   }
@@ -136,8 +166,12 @@
     display: none;
   }
 
+  .home__link-wrapper {
+    padding-right: 0;
+  }
+
   .home__link {
-    padding: 9px 29px;
+    padding: 10px 38px;
     font-size: 16px;
   }
 }
